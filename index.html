@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="img/logo-N-netflix.png">
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+
+</head>
+<body>
+    <div class="p-0 containermaster" style="position: relative;">
+        <header class="navbar navbar-expand flex-column p-0 m-0 fixed-top">
+            <div class="container-fluid" id="menu">
+                <a href="#" class="navbar-brand mr-4 col-1" id="logon">
+                    <img src="img/netflix.png" width="100%">
+                </a>
+
+                <div class="collapse navbar-collapse" >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" id="text">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#series" class="nav-link" id="text">Séries</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#filmes" class="nav-link" id="text">Filmes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#bombando" class="nav-link"id="text">bombando</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="btn-group">
+                    <a href="#" type="button" class="nav-item nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                      <img src="img/logo-perfil.png" class="rounded">
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end dropdown-menu-lg-start">
+                      <a href="#" class="dropdown-item">CarlosJr.Dev</a>
+                      <div class="dropdown-divider"></div>
+                      <a href="#" class="dropdown-item">Minha Conta</a>
+                      <a href="#" class="dropdown-item">Logout</a>
+                    </ul>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="container-fluid p-0 billboard">
+            <div class="billboard-sub">
+                <div class="billboard-bg">
+                    <div class="billboard-hero">
+                        <img src="https://occ-0-3852-3851.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABR8kFZa4clQhZVHZnumWVNfVLk-F9uEBwBZumMUTgWS5-mNV3fNTHIh3BtkvpS6ZfU0GPHTChef0V_jo8ramrFhvvndr.jpg?r=fd3" class="static-image" />
+                    </div>
+                    <div class="hero-vinheta-left"></div>
+                    <div class="hero-vinheta-buttom"></div>
+                </div>
+                <div class="billboard-content">
+                    <div class="billboard-lateral">
+                        <div class="title-logo">
+                            <img class="static-image" src="https://occ-0-3852-3851.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABefrRgyZLlxIb0G8ISPFs0u0U3JJX1S1OCp9qi9yIbSF13-zhskDHFjDQuHD1JjOj7S0BWJlXu8y3lIms-PnjkMoC7qlokTN7tJ21e4fZ6xXS9gd8Zxe7zBHsVXwA0xhhKGojUBFmValP-jSFH18i9ceV_woTTdtlWj75P6VaT6fnQ.png?r=995">
+                        </div>
+                        <div class="description"></div>
+                            <div class="sinopse text-white">
+                                Agentes disfarçados abrem um hotel falso para turistas de verdade como fachada <br>
+                                para salvar milhares de refugiados etíopes. Insoirado em fatos reais.
+                                <br><br>
+                            </div>
+                    
+                    <div class="action">
+                        <a href="#" class="btn btn-light btn-assistir">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                              </svg>
+                            <b>Assistir</b>
+                        </a>
+                        <a href="#" class="btn btn-dark btn-maisinfor">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                              </svg>
+                            <b>Mais Informações</b>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+    <div class="container-fluid carrocel"> 
+        <div class="carrocel-series carrocel">
+            <div class="textcarrocel" id="series">Séries</div>
+            <div class="owl-carousel owl-theme">
+                <div class="item img"><img src="img/serie/serie 2.jpg"></div>
+                <div class="item img"><img src="img/serie/serie 3.jpg"></div>
+                <div class="item img"><img src="img/serie/serie 4.jpg"></div>
+                <div class="item img"><img src="img/serie/serie 5.jpg"></div>
+                <div class="item img"><img src="img/serie/serie 6.jpg"></div>
+                <div class="item img"><img src="img/serie/serie 7.jpg"></div>
+                <div class="item img"><img src="img/serie/serie 8.jpg"></div>
+                <div class="item img"><img src="img/serie/serie 1.jpg"></div>
+                <div class="item img"><img src="img/serie/serir 9.jpg"></div>
+                <div class="item img"><img src="img/serie/serie 10.jpg"></div>
+                <div class="item img"><img src="img/serie/serie 11.jpg"></div>
+                <div class="item img"><img src="img/serie/serie 12.jpg"></div>
+            </div>
+            </div>
+            <div class="owl-carousel owl-theme">
+                <div class="item img"><img src="img/serie/serie 13.jpg"></div>
+                <div class="item img"><img src="img/serie/serie 14.jpg"></div>
+                <div class="item img"><img src="img/serie/serie 15.jpg"></div>
+                <div class="item img"><img src="img/serie/serie 16.jpg"></div>
+                <div class="item img"><img src="img/serie/serie 17.jpg"></div>
+                <div class="item img"><img src="img/serie/serie 18.jpg"></div>
+                <div class="item img"><img src="img/serie/serie 19.jpg"></div>
+                <div class="item img"><img src="img/serie/serie 20.jpg"></div>
+                <div class="item img"><img src="img/serie/serie 21.jpg"></div>
+                <div class="item img"><img src="img/serie/serie 22.jpg"></div>
+                <div class="item img"><img src="img/serie/serie 23.jpg"></div>
+                <div class="item img"><img src="img/serie/serie 24.jpg"></div>
+            </div>
+    
+
+            
+            
+            <div class="carrocel-series">
+                <div class="textcarrocel" id="filmes">Filmes</div>
+                <div class="owl-carousel owl-theme">
+                    <div class="item img"><img src="img/filmes/filme (1).jpg"></div>
+                    <div class="item img"><img src="img/filmes/filme (2).jpg"></div>
+                    <div class="item img"><img src="img/filmes/filme (3).jpg"></div>
+                    <div class="item img"><img src="img/filmes/filme (4).jpg"></div>
+                    <div class="item img"><img src="img/filmes/filme (5).jpg"></div>
+                    <div class="item img"><img src="img/filmes/filme (6).jpg"></div>
+                    <div class="item img"><img src="img/filmes/filme (7).jpg"></div>
+                    <div class="item img"><img src="img/filmes/filme (8).jpg"></div>
+                    <div class="item img"><img src="img/filmes/filme (9).jpg"></div>
+                    <div class="item img"><img src="img/filmes/filme (10).jpg"></div>
+                    <div class="item img"><img src="img/filmes/filme (11).jpg"></div>
+                    <div class="item img"><img src="img/filmes/filme (12).jpg"></div>
+                </div>
+                <div class="owl-carousel owl-theme">
+                    <div class="item img"><img src="img/filmes/filme (13).jpg"></div>
+                    <div class="item img"><img src="img/filmes/filme (14).jpg"></div>
+                    <div class="item img"><img src="img/filmes/filme (15).jpg"></div>
+                    <div class="item img"><img src="img/filmes/filme (16).jpg"></div>
+                    <div class="item img"><img src="img/filmes/filme (17).jpg"></div>
+                    <div class="item img"><img src="img/filmes/filme (18).jpg"></div>
+                    <div class="item img"><img src="img/filmes/filme (19).jpg"></div>
+                    <div class="item img"><img src="img/filmes/filme (20).jpg"></div>
+                    <div class="item img"><img src="img/filmes/filme (21).jpg"></div>
+                    <div class="item img"><img src="img/filmes/filme (22).jpg"></div>
+                    <div class="item img"><img src="img/filmes/filme (23).jpg"></div>
+                    <div class="item img"><img src="img/filmes/filme (24).jpg"></div>
+                </div>
+                </div>
+                
+
+                <div class="carrocel-series">
+                    <div class="textcarrocel" id="bombando">Bombando</div>
+                    <div class="owl-carousel owl-theme">
+                        <div class="item img"><img src="img/bombando/bomb (1).jpg"></div>
+                        <div class="item img"><img src="img/bombando/bomb (2).jpg"></div>
+                        <div class="item img"><img src="img/bombando/bomb (3).jpg"></div>
+                        <div class="item img"><img src="img/bombando/bomb (4).jpg"></div>
+                        <div class="item img"><img src="img/bombando/bomb (5).jpg"></div>
+                        <div class="item img"><img src="img/bombando/bomb (6).jpg"></div>
+                        <div class="item img"><img src="img/bombando/bomb (7).jpg"></div>
+                        <div class="item img"><img src="img/bombando/bomb (8).jpg"></div>
+                        <div class="item img"><img src="img/bombando/bomb (9).jpg"></div>
+                        <div class="item img"><img src="img/bombando/bomb (10).jpg"></div>
+                        <div class="item img"><img src="img/bombando/bomb (11).jpg"></div>
+                        <div class="item img"><img src="img/bombando/bomb (12).jpg"></div>
+                    </div>
+                    <div class="owl-carousel owl-theme">
+                        <div class="item img"><img src="img/bombando/bomb (13).jpg"></div>
+                        <div class="item img"><img src="img/bombando/bomb (14).jpg"></div>
+                        <div class="item img"><img src="img/bombando/bomb (15).jpg"></div>
+                        <div class="item img"><img src="img/bombando/bomb (16).jpg"></div>
+                        <div class="item img"><img src="img/bombando/bomb (17).jpg"></div>
+                        <div class="item img"><img src="img/bombando/bomb (18).jpg"></div>
+                        <div class="item img"><img src="img/bombando/bomb (19).jpg"></div>
+                        <div class="item img"><img src="img/bombando/bomb (20).jpg"></div>
+                        <div class="item img"><img src="img/bombando/bomb (21).jpg"></div>
+                        <div class="item img"><img src="img/bombando/bomb (22).jpg"></div>
+                        <div class="item img"><img src="img/bombando/bomb (23).jpg"></div>
+                        <div class="item img"><img src="img/bombando/bomb (24).jpg"></div>
+                    </div>
+                    </div>
+
+    </div>
+    </div>
+
+    
+
+    </div>
+        <!--bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <!--owl-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+</body>
+</html>
